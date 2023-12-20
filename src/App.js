@@ -3,10 +3,10 @@ import "./index.css"
 import Home from "./routes/Home"
 import About from "./routes/About"
 import Project from "./routes/Project"
-import Contact from "./routes/Contact"
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
 import NavBar from "./components/NavBar"
 import Footer from "./components/footer"
+import Beautify from "./routes/beautify"
 
 function App() {
   return (
@@ -17,9 +17,10 @@ function App() {
       <Route path="/" element= {<Home/>}/>
       <Route path="/about" element = {<About/>}/>
       <Route path="/project" element ={<Project/>}/>
-      <Route path="/contact" element={<Contact/>}/>
-
+     
+      <Route path="/beautify" element={<Beautify/>}/>
       </Routes>
+      <Footer/>
     </div>
     </Router>
    

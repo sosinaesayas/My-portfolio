@@ -1,20 +1,24 @@
 .project-heading{
     text-align:center;
     padding: 4rem 0 2rem 0;
+   
+}
+.card-link{
+    text-decoration: none;
 }
 .project-container{
-    /* max-width:1140px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(3 1fr);
-    grid-gap: 40px;
-    padding-bottom: 5rem; */
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    
+    margin-bottom: 20px;
+}
+.description{
+    color: rgb(0, 0, 0);
 }
 .project-card{
-    background-color: #413f3f;
+    border: 1px solid rgb(173, 173, 173);
+    border-radius: 15px;
+   
+    background: url("/home/sosina/Desktop/portfolio-editted/src/assets/pexels-katelin-elliott-463133.jpg");
     padding: 1.2rem 1rem;
     margin: 10px;
 }
@@ -22,7 +26,7 @@
     width: 100%;
 }
 .project-title{
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 1rem 0;
 }
 .pro-details p {
@@ -38,6 +42,11 @@
 }
 .pro-btn .btn{
     padding: 0.5rem 1rem;
+}
+.btn{
+    font-size: larger;
+    text-decoration: none;
+    color: rgb(0, 55, 255);
 }
 @media screen and (max-width:740px){
     .project-container{

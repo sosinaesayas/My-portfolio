@@ -5,9 +5,9 @@ import Footer from '../components/footer.js'
 const Home = () => {
   return (
     <div>
-        <NavBar/>
+      
         <HeroImg/>
-        <Footer/>
+      
     </div>
   )
 }

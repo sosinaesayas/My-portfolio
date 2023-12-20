@@ -1,12 +1,12 @@
-.hero-img{
+/* .hero-img{
     width: 100%;
-    background-color: rgba(0,0,0,0.3);
-    height: 50vh;
+    background-color: rgba(0,0,0,0.2);
+    height: 30vh;
     position: relative;
 }
 .hero-img::before{
     content: "";
-    background:url("/home/sosina/Desktop/portfolio-editted/src/assets/neew/pexels-life-of-pix-7974.jpg");
+    background:url("/src/assets/yy.jpg");
     background-size: cover;
     background-position: center top;
     height: 100%;
@@ -28,7 +28,6 @@
     font-size: 2.4rem;
     color: white;
 }
-
 .hero-img p{
     font-size: 1.4rem;
     text-align:center;
@@ -38,4 +37,4 @@
     .hero-img h1{
         font-size: 2rem;
     }
-}
+} */

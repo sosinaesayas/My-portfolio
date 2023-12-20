@@ -1,16 +1,16 @@
 import "./footer.css";
 import React from 'react';
-import {FaHome , FaPhone, FaMailBulk, FaFacebook, FaTwitter, FaLinkedin} from "react-icons/fa";
+import {FaHome , FaPhone, FaMailBulk,FaFacebook, FaLinkedin, FaInstagram} from "react-icons/fa";
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div className="footer">
         <div className="footer-container">
             <div className="left">
                 <div className="location">
+                    <div className="location">
                     <FaHome size={20} style= {{ color:"white", marginRight:"2rem"}}/>
-                    <div>
-                        <p>Addis Ababa</p>
-                        <p>Ethiopia.</p>
+                        <h4 className="city">Addis Ababa, Ethiopia.</h4>
                     </div>
                 </div>
                 <div className="phone">
@@ -28,14 +28,14 @@ const Footer = () => {
                 </div>
             </div>
                 <div className="right"> 
-                <h4>
+                <h4 className="aboutme">
                     About me
                 </h4>
-                <p>This is me Sosina Esayas a 4th year software engineer student at Addis Ababa University</p>
+                <p className="aboutP">This is Sosina Esayas a 4th year software engineering student at Addis Ababa University</p>
                   <div className="social">
-                  <FaFacebook size={30} style = {{color:"white", marginRight:"1rem"}}/>
-                  <FaTwitter size={30} style = {{color:"white", marginRight:"1rem"}}/>
-                  <FaLinkedin size={30} style = {{color:"white", marginRight:"1rem"}}/>
+                    <Link to={URL}> <FaFacebook size={30} style = {{color:"white", marginRight:"1rem"}}/></Link>
+                    <Link> <FaInstagram size={30} style = {{color:"white", marginRight:"1rem"}}/></Link>
+                    <Link> <FaLinkedin size={30} style = {{color:"white", marginRight:"1rem"}}/></Link>           
                   </div>
                   </div>
 

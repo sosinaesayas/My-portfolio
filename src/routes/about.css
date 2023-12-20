@@ -1,0 +1,55 @@
+.skill-title{
+    margin-left: 30px;
+    margin-top: 50px;
+    font-size: xx-large;
+    font-weight: 400;
+    color: black;
+}
+.skills{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 60px;
+   
+}
+.lists{
+  
+}
+.lists li{
+    width: fit-content;
+    background-color: rgb(241, 241, 241);
+    border: 1px solid rgb(195, 195, 195);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 30px;
+    list-style-type: none;
+}
+.work-experience{
+    font-size: larger;
+    margin-left: 70px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color:black;
+}
+.resume{
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    color:black;
+}
+.downloadP{
+    font-size: x-large;
+    color:black;
+}
+.download-icon{
+    margin-left: 20px;
+    color: rgb(58, 58, 58);
+    width: 30px;
+    height: auto;
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+.download-icon:hover{
+    color: rgb(0, 0, 0);
+}

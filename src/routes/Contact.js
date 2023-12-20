@@ -5,9 +5,9 @@ import HeroImg2 from '../components/HeroImg2.js'
 const Contact = () => {
   return (
     <div>
-      <NavBar/>
+    
       <HeroImg2 heading = "CONTACT ME" text = "Let's talk"/>
-      <Footer/>
+      
     </div>
   )
 }
