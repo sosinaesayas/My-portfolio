@@ -6,6 +6,7 @@
 .card-link{
     text-decoration: none;
 }
+
 .project-container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -24,11 +25,14 @@
 }
 .project-card img{
     width: 100%;
+    border: 1px solid gray;
 }
+
 .project-title{
     color: rgb(0, 0, 0);
     padding: 1rem 0;
 }
+
 .pro-details p {
     padding-bottom: 1rem;
     font-size:1.1rem;
@@ -47,6 +51,9 @@
     font-size: larger;
     text-decoration: none;
     color: rgb(0, 55, 255);
+}
+.btn:hover{
+    color: rgb(0, 0, 0);
 }
 @media screen and (max-width:740px){
     .project-container{

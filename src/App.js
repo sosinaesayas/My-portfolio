@@ -7,6 +7,9 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
 import NavBar from "./components/NavBar"
 import Footer from "./components/footer"
 import Beautify from "./routes/beautify"
+import Eigenface from "./routes/eigenFace"
+import Fisherface from "./routes/fisherFace"
+
 
 function App() {
   return (
@@ -17,8 +20,9 @@ function App() {
       <Route path="/" element= {<Home/>}/>
       <Route path="/about" element = {<About/>}/>
       <Route path="/project" element ={<Project/>}/>
-     
       <Route path="/beautify" element={<Beautify/>}/>
+      <Route path="/eigenface" element={<Eigenface/>}/>
+      <Route path="fisherface" element={<Fisherface/>}/>
       </Routes>
       <Footer/>
     </div>
