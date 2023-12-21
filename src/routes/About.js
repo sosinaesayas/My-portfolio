@@ -3,7 +3,7 @@ import "./about.css"
 import { FaDownload } from 'react-icons/fa'
 import NavBar from "../components/NavBar.js"
 import Footer from '../components/footer.js'
-import HeroImg3 from '../components/HeroImg3.js'
+import HeroImg2 from '../components/HeroImg2.js'
 const About = () => {
 
   const handleDownload = () => {
@@ -16,9 +16,9 @@ const About = () => {
   };
   return (
     <div>
-    
-      <HeroImg3 heading = "ABOUT" text = "I am a Front-End developer "/>
-      <p className="skill-title">Familarized Skills</p>
+      <NavBar/>
+      <HeroImg2 heading = "ABOUT" text = "I am a full stack developer and an AI enthusiast "/>
+      <div className='skill-title-responiveness'> <p className='skill-title'>Familarized Skills</p></div>
       <div className='skills'>
           <div className='lists'>
             <li>HTML</li>
@@ -46,12 +46,16 @@ const About = () => {
                 <li>Machine Learning</li>
            </div> 
             </div>
-            <p className='skill-title'>Working Experience</p>
+            <div className='skill-title-responiveness'> <p className='skill-title'>Work Experience</p></div>
+            <div className='work-experience-div'>
             <p className='work-experience'>1 year Experience of web development at Roshan Technologies</p>
+            </div>
+           
             <div className='resume'>
-              <p className='downloadP'>you can download my Resume here</p>
+              <p className='downloadP'>Download Resume</p>
               <FaDownload className='download-icon' onClick={handleDownload}/>
             </div>
+            <Footer/>
 
     </div>
   )

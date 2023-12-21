@@ -46,9 +46,32 @@ h4, p{
     padding-bottom: 0.5rem; 
     color: white;
 }
+.social-link{
+    color:white;
+    margin-right:1rem;
+    font-size: 30px;
+}
+.social-link:hover{
+    color: rgb(95, 255, 231);
+}
 
 @media screen and (max-width:640px) {
     .footer-container{
         grid-template-columns: 1fr;
+    }
+    .left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .right{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .aboutP{
+        margin-left: 10px;
     }
 }

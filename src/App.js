@@ -4,18 +4,18 @@ import Home from "./routes/Home"
 import About from "./routes/About"
 import Project from "./routes/Project"
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
-import NavBar from "./components/NavBar"
-import Footer from "./components/footer"
 import Beautify from "./routes/beautify"
 import Eigenface from "./routes/eigenFace"
 import Fisherface from "./routes/fisherFace"
+import Afalagi from "./routes/Afalagi"
+
 
 
 function App() {
   return (
     <Router>
     <div className="App">
-      <NavBar/>
+      
       <Routes>
       <Route path="/" element= {<Home/>}/>
       <Route path="/about" element = {<About/>}/>
@@ -23,8 +23,10 @@ function App() {
       <Route path="/beautify" element={<Beautify/>}/>
       <Route path="/eigenface" element={<Eigenface/>}/>
       <Route path="fisherface" element={<Fisherface/>}/>
+      <Route path="/afalagi" element={<Afalagi/>}/>
+
       </Routes>
-      <Footer/>
+    
     </div>
     </Router>
    

@@ -7,9 +7,10 @@ import WorkCard from "../components/workCard.js"
 const Project = () => {
   return (
     <div>
-      
+      <NavBar/>
       <HeroImg2 heading="PROJECTS" text="some of my recent works" />
       <WorkCard/>
+      <Footer/>
       
       
 

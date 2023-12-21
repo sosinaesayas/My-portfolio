@@ -26,10 +26,11 @@ const Beautify = () => {
 
   return (
     <div className="beautify-page">
-    
+      <NavBar/>
       <HeroImg4/>
       <h2 className='title'>Beautify - A React-Powered E-commerce Experience</h2>
       <Carousel className="imaages" images={images} />
+      <Footer/>
       
     </div>
   );

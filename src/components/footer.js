@@ -33,9 +33,9 @@ const Footer = () => {
                 </h4>
                 <p className="aboutP">This is Sosina Esayas a 4th year software engineering student at Addis Ababa University</p>
                   <div className="social">
-                    <Link to={URL}> <FaFacebook size={30} style = {{color:"white", marginRight:"1rem"}}/></Link>
-                    <Link> <FaInstagram size={30} style = {{color:"white", marginRight:"1rem"}}/></Link>
-                    <Link> <FaLinkedin size={30} style = {{color:"white", marginRight:"1rem"}}/></Link>           
+                    <Link to = "https://www.linkedin.com/in/sosina-esayas-7527bb248/"> <FaLinkedin className="social-link" /></Link> 
+                    <Link to="https://www.instagram.com/sosinaesayas/"> <FaInstagram className="social-link" /></Link>
+                             
                   </div>
                   </div>
 

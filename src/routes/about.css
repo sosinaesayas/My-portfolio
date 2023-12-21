@@ -1,53 +1,123 @@
-.skill-title{
+.skill-title {
     margin-left: 30px;
     margin-top: 50px;
     font-size: xx-large;
     font-weight: 400;
     color: black;
-}
-.skills{
+  }
+  
+  .skills {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-bottom: 60px;
-   
-}
-
-.lists li{
+  }
+  
+  .lists li {
     width: fit-content;
-    background-color: rgb(241, 241, 241);
-    border: 1px solid rgb(195, 195, 195);
+    background-color: rgb(174, 198, 190);
+    border: 1px solid rgb(164, 163, 163);
     border-radius: 10px;
     padding: 10px;
     margin: 30px;
     list-style-type: none;
-}
-.work-experience{
+  }
+  
+  .lists li:hover {
+    background-color: rgb(72, 72, 72);
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+    color: white;
+  }
+  
+  .work-experience-div {
+    margin-left: 30px;
+    width: fit-content;
+    height: 50px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .work-experience {
+    padding:20px ;
+    background-color: rgb(174, 198, 190);
+    border:1px solid rgb(197, 197, 197);
+    border-radius: 20px;
     font-size: larger;
-    margin-left: 70px;
-    margin-top: 20px;
+    margin-top: 25px;
     margin-bottom: 50px;
-    color:black;
-}
-.resume{
+    color: rgb(3, 3, 3);
+  }
+  
+  .resume {
     margin-left: 30px;
     display: flex;
     align-items: center;
+    margin-top: 40px;
     margin-bottom: 50px;
-    color:black;
-}
-.downloadP{
+    color: black;
+  }
+  
+  .downloadP {
     font-size: x-large;
-    color:black;
-}
-.download-icon{
+    color: black;
+  }
+  
+  .download-icon {
     margin-left: 20px;
-    color: rgb(58, 58, 58);
+    color: rgb(0, 0, 0);
     width: 30px;
     height: auto;
     border: 1px solid gray;
     border-radius: 20px;
-}
-.download-icon:hover{
-    color: rgb(0, 0, 0);
-}
+  }
+  
+  .download-icon:hover {
+    color: rgb(96, 96, 96);
+  }
+  
+  @media screen and (max-width: 640px) {
+    .skills {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+    .skill-title-responiveness{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+  
+    .lists li {
+      margin: 10px;
+    }
+  
+    .work-experience-div {
+      margin-left: 10px;
+      /* margin-right: 10px; */
+      margin-bottom: 30px;
+      width: 480px;
+      height: auto;
+      padding: 5px;
+      align-items: center;
+    }
+  
+    .resume {
+      margin-left: 0;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .downloadP {
+      margin-top: 10px;
+      margin-bottom: 5px;
+    }
+  
+    .download-icon {
+      margin-left: 0;
+      margin-top: 5px;
+    }
+  
+  }
