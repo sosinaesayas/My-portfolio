@@ -7,13 +7,15 @@ import HeroImg2 from '../components/HeroImg2.js'
 const About = () => {
 
   const handleDownload = () => {
-    const downloadUrl = 'src/resume file/Resume.pdf';
+   
+    const downloadUrl = process.env.PUBLIC_URL + '/resume_file/Resume.pdf';
     const link = document.createElement('a');
     link.href = downloadUrl;
-    link.download = 'resume.pdf';
-    link.target = '_blank';
-    link.click();
-  };
+    link.download = 'Resume.pdf'; 
+    document.body.appendChild(link); 
+    document.body.removeChild(link); 
+};
+
   return (
     <div>
       <NavBar/>

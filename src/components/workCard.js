@@ -55,11 +55,7 @@ const WorkCard = () => {
                       <div className="writing-part">
                       <h2 className="project-title">Eigen Face Recognition</h2>
                       <div className="pro-details">
-                        <p className="description">In the realm of computer vision and facial recognition, the project, Eigen Face Recognition, stands as a testament to the capabilities of advanced algorithms. By harnessing the power of eigenfaces, I have developed a robust and efficient system that can identify and authenticate individuals based on their unique facial features.
-
-The project delves into the fascinating world of eigenfaces, a technique that employs principal component analysis (PCA) to extract the most discriminative facial features. By representing faces as linear combinations of these eigenfaces, I have created a high-dimensional face space that allows for accurate recognition and classification.
-
-Through meticulous training and testing, the system has achieved impressive accuracy rates, paving the way for a wide range of practical applications. Whether it is enhancing security systems, enabling access control, or automating attendance tracking, eigen face recognition offers a reliable and efficient solution.</p>
+                        <p className="description">I built an Eigenface recognition system from the ground up, using PCA (Principal Component Analysis). This method is all about using math to recognize different faces. I did everything myself - coming up with the idea, coding, and making sure it worked right. My system was trained to be really good at figuring out who is who. During tests, it was great at spotting faces, even when they looked a bit different. This project showed that I can handle complex computer tasks. It was also a chance for me to dive deep into image processing and machine learning. Using PCA made the project challenging but really interesting. I learned a lot about how computers can learn to see and understand faces.</p>
                         <div className="pro-btns"> 
                         <NavLink to="https://github.com/sosinaesayas/Eigen-face-recognition" className = "btn">view source</NavLink>
                     </div>
@@ -77,9 +73,8 @@ Through meticulous training and testing, the system has achieved impressive accu
                         <div className="writing-part">
                         <h2 className="project-title">Fisher Face Recognition</h2>
                     <div className="pro-details">
-                        <p className="description">Our Fisher Face Recognition system is at the forefront of facial recognition technology, leveraging Fisherfaces and FLDA for unparalleled accuracy. It specializes in identifying individuals based on unique facial features, efficiently handling variations in lighting, pose, and expressions. The system's core functionality lies in its ability to transform facial images into a lower-dimensional space, emphasizing key discriminative features for precise classification.
-
-Meticulously trained with a comprehensive dataset, the system demonstrates adaptability and robustness in real-world scenarios. It's particularly suited for applications in security, surveillance, and biometric authentication, offering reliable performance in diverse environments. With its high accuracy rates and versatility, our Fisher Face Recognition system represents a significant advancement in computer vision, setting new standards for the industry.</p>
+                        <p className="description">
+In my latest project, I developed a Fisherface recognition model from scratch, showcasing my deep dive into facial recognition technology. This custom-built model was meticulously coded to optimize for accuracy and efficiency in recognizing diverse facial features and expressions. I undertook the complete development cycle, from initial research to coding and testing. The model was trained on a carefully curated dataset, ensuring robust learning and applicability. During testing, it demonstrated high efficiency and accuracy, highlighting its potential for real-world applications. This project not only honed my technical skills in machine learning and pattern recognition but also underscored my ability to manage and deliver complex, end-to-end solutions in advanced facial recognition technology.  </p>
                         <div className="pro-btns"> 
                         <NavLink to="https://github.com/sosinaesayas/Fisher-face-Recognition" className = "btn">view source</NavLink>
                     </div>

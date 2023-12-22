@@ -12,7 +12,7 @@
   }
   
   .carousel .images {
-    border: 1px solid rgb(0, 121, 196);
+    border: 1px solid rgb(230, 230, 230);
     border-radius: 20px;
     max-width: 100%;
     height: auto;
@@ -20,9 +20,9 @@
   .carousel button{
     color: rgb(0, 0, 0);
     font-weight: 100;
-    background-color: rgb(223, 223, 223);
-    border: 0.3px solid;
-    border-color: rgb(10, 57, 167);
+    background-color: rgb(255, 255, 255);
+    border: 0.5px solid;
+    border-color: rgb(166, 166, 166);
     cursor: pointer;
     margin-bottom: 60px;
     margin-top: 40px;
