@@ -59,6 +59,13 @@ button{
     border-radius: 5px;
     border-color: rgb(178, 228, 255);
     text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+}
+button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 .btn-link{
     text-decoration: none;

@@ -16,8 +16,9 @@ const HeroImg = () => {
           </div>
 
           <div className="buttons">
-          <button className="btn1"><Link className="btn-link" to="./project">Projects</Link></button>
-          <button className="btn2"><Link className="btn-link" to="./about">About</Link></button>
+          <Link className="btn-link" to="./project">   <button className="btn1">Projects</button></Link>
+          <Link className="btn-link" to="./about"> <button className="btn2">About</button></Link>
+         
         </div>
         </div>
         

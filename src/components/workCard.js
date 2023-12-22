@@ -79,9 +79,13 @@ In my latest project, I developed a Fisherface recognition model from scratch, s
                         <NavLink to="https://github.com/sosinaesayas/Fisher-face-Recognition" className = "btn">view source</NavLink>
                     </div>
                   </div>
-                        </div>
+                </div>
                 </div>
          
+            </div>
+
+            <div className="final-p">
+              <h1>And MORE</h1>
             </div>
         </div>
       

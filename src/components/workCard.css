@@ -63,6 +63,13 @@
   .project-card:nth-child(odd) img {
     background-color: #f8e6e6;
   }
+.final-p{
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+  font-size: 40px;
+  color: #7e7e7e;
+}
   
 
  @media screen and (max-width: 740px) {

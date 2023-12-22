@@ -15,8 +15,8 @@
   
   .lists li {
     width: fit-content;
-    background-color: rgb(174, 198, 190);
-    border: 1px solid rgb(164, 163, 163);
+    background-color: rgb(255, 255, 255);
+    border:3px solid rgb(0, 112, 156);
     border-radius: 10px;
     padding: 10px;
     margin: 30px;
@@ -24,10 +24,9 @@
   }
   
   .lists li:hover {
-    background-color: rgb(72, 72, 72);
     transform: scale(1.2);
     transition-duration: 0.5s;
-    color: white;
+    
   }
   
   .work-experience-div {
@@ -37,45 +36,18 @@
     padding: 3px;
     display: flex;
     align-items: center;
+    margin-bottom: 50px;
   }
   
   .work-experience {
     padding:20px ;
-    background-color: rgb(174, 198, 190);
-    border:1px solid rgb(197, 197, 197);
+    background-color: rgb(255, 255, 255);
+    border:3px solid rgb(0, 112, 156);
     border-radius: 20px;
-    font-size: larger;
-    margin-top: 25px;
-    margin-bottom: 50px;
     color: rgb(3, 3, 3);
   }
   
-  .resume {
-    margin-left: 30px;
-    display: flex;
-    align-items: center;
-    margin-top: 40px;
-    margin-bottom: 50px;
-    color: black;
-  }
-  
-  .downloadP {
-    font-size: x-large;
-    color: black;
-  }
-  
-  .download-icon {
-    margin-left: 20px;
-    color: rgb(0, 0, 0);
-    width: 30px;
-    height: auto;
-    border: 1px solid gray;
-    border-radius: 20px;
-  }
-  
-  .download-icon:hover {
-    color: rgb(96, 96, 96);
-  }
+
   
   @media screen and (max-width: 640px) {
     .skills {
@@ -96,7 +68,6 @@
   
     .work-experience-div {
       margin-left: 10px;
-      /* margin-right: 10px; */
       margin-bottom: 30px;
       width: 480px;
       height: auto;
